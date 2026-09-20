@@ -20,3 +20,6 @@ setTimeout(() => sendCommand(0), 3000);
 bot.on('close', (code) => {
   console.log(`[Launcher] Bot exited with code ${code}`);
 });
+
+// Giữ tiến trình launcher sống mãi mãi, không để nó tự kết thúc
+setInterval(() => {}, 1000 * 60 * 60);
