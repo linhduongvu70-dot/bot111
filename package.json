@@ -1,0 +1,13 @@
+{
+  "name": "bot111",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Node.js bot",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "mineflayer": "^4.32.0"
+  }
+}
